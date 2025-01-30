@@ -10,7 +10,7 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 
 ### 1. Ingreso y visualización de datos
 
-### [HolaMundo](https://github.com/JuanDRodasM/logprog_python/HolaMundo)
+### [HolaMundo](https://github.com/JuanDRodasM/logprog_python/tree/main/HolaMundo)
 - Visualizar información en la consola, en forma de cadena de caracteres.
 - Declarar variables tipo string y visualizar su contenido en la consola.
 - Demostrar el funcionamiento del método print()
