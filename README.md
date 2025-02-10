@@ -21,3 +21,11 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 - Demostrar el cambio de tipo de datos desde string hasta int y float, utilizando los métodos float() e int()
 - Demostrar condicionales básicos para la toma de decisiones
 - Actualizado a Python 3.13.x
+
+
+### 2. Condicionales y ciclos de control
+
+### [EjemploCondicionales](https://github.com/JuanDRodasM/logprog_python/tree/main/EjemploCondicionales)
+
+- Demostrar el funcionamiento de los condicionales utilizando operadores de igualdad y operadores lógicos.
+- Actualizado a Python 3.13.x

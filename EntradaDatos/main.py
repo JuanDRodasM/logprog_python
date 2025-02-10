@@ -1,5 +1,17 @@
 #coding=utf-8
 
+# ============================
+# Programa:       EntradaDatos
+# Contacto:       Juan Dario Rodas - juand.rodasm@upb.edu.co
+# Propósito:
+# ----------
+# - Demostrar el funcionamiento básico de la captura de datos desde la consola, utilizando el método input().
+# - Demostrar el cambio de tipo de datos desde string hasta int y float, utilizando los métodos float() e int()
+# - Demostrar condicionales básicos para la toma de decisiones
+
+# ============================
+
+
 # Programa que lee un dato de hora y lo convierte a minutos
 # Entrada: El valor de la hora
 # Salida: El valor de la hora en minutos
