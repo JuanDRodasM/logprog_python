@@ -15,3 +15,9 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 - Declarar variables tipo string y visualizar su contenido en la consola.
 - Demostrar el funcionamiento del método print()
 - Actualizado a Python 3.13.x
+
+### [EntradaDatos](https://github.com/JuanDRodasM/logprog_python/tree/main/EntradaDatos)
+- Demostrar el funcionamiento básico de la captura de datos desde la consola, utilizando el método input().
+- Demostrar el cambio de tipo de datos desde string hasta int y float, utilizando los métodos float() e int()
+- Demostrar condicionales básicos para la toma de decisiones
+- Actualizado a Python 3.13.x
