@@ -34,3 +34,7 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 - Demostrar el funcionamiento del ciclo de control While, generando una tabla de multiplicar. 
 - Demostrar como funciona la sentencia break para interrumpir la ejecución de un ciclo
 - Actualizado a Python 3.13.x
+
+### [PatronesAsteriscos](https://github.com/JuanDRodasM/logprog_python/tree/main/PatronesAsteriscos)
+- Demostrar el funcionamiento del ciclo de control While, generando patrones de asteriscos en forma de arbolitos.
+- Actualizado a Python 3.13.x
