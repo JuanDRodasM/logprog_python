@@ -46,3 +46,13 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 ### [RegistroHuellaCarbono](https://github.com/JuanDRodasM/logprog_python/tree/main/RegistroHuellaCarbono)
 - Demostrar el funcionamiento del ciclo de control While, Condicionales, contadores y totalizadores.
 - Actualizado a Python 3.13.x
+
+
+## Soluciones a examenes anteriores
+
+### Examen No. 1
+
+
+>>### [Ex01_FumigacionesConjuntoResidencial](https://github.com/JuanDRodasM/logprog_python/tree/main/Ex01_FumigacionesConjuntoResidencial)
+- Tema de examen 01: Condicionales y Ciclos de control. Fumigaciones en Conjunto Residencial. Ejercicio resuelto.
+- Actualizado a Python 3.13.x
