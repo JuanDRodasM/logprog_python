@@ -52,7 +52,10 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 
 ### Examen No. 1
 
-
->>### [Ex01_FumigacionesConjuntoResidencial](https://github.com/JuanDRodasM/logprog_python/tree/main/Ex01_FumigacionesConjuntoResidencial)
+### [Ex01_FumigacionesConjuntoResidencial](https://github.com/JuanDRodasM/logprog_python/tree/main/Ex01_FumigacionesConjuntoResidencial)
 - Tema de examen 01: Condicionales y Ciclos de control. Fumigaciones en Conjunto Residencial. Ejercicio resuelto.
+- Actualizado a Python 3.13.x
+
+### [Ex01_DiversificacionProduccionLechera](https://github.com/JuanDRodasM/logprog_python/tree/main/Ex01_DiversificacionProduccionLechera)
+- Tema de examen 01: Condicionales y Ciclos de control. Diversificación Producción Lechera. Ejercicio resuelto.
 - Actualizado a Python 3.13.x
