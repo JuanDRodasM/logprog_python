@@ -94,8 +94,6 @@ while volumen_recolectado <= volumen_meta_minima:
     else:
         print('Meta alcanzada!')
 
-# Calculos Finales
-
 # Visualizacion de resultados
 print('\n*** Resultados Obtenidos *** \n')
 print(f'Cabras: Total cabras ordeñadas: {total_cabras}, total volumen obtenido {volumen_cabras:.2f} lts.')
