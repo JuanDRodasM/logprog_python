@@ -51,17 +51,16 @@ while hogar_actual <= total_hogares:
 
     if tipo_fumigacion == 'insectos':
         fumigaciones_insectos += 1
-        hogar_actual += 1
+    elif tipo_fumigacion == 'hongos':
+        fumigaciones_hongos += 1
+    elif tipo_fumigacion == 'roedores':
+        fumigaciones_roedores += 1
     else:
-        if tipo_fumigacion == 'hongos':
-            fumigaciones_hongos += 1
-            hogar_actual += 1
-        else:
-            if tipo_fumigacion == 'roedores':
-                fumigaciones_roedores += 1
-                hogar_actual += 1
-            else:
-                print('Tipo de fumigación no válida. Intente nuevamente\n')
+        print('Tipo de fumigación no válida. Intente nuevamente\n')
+        continue
+
+    #Sentencia de salida - Cambio de la variable de control
+    hogar_actual += 1
 
 # Calculos finales
 porcentaje_insectos = (fumigaciones_insectos / total_hogares) * 100
