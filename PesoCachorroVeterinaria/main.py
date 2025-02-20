@@ -14,15 +14,15 @@
 # vida. El veterinario debe ingresar el nombre del cachorro y registrar
 # su peso diario (en gramos) durante los primeros 15 días. Al finalizar
 # cada registro diario, el programa debe mostrar:
+
 #El nombre del cachorro seguido de su peso actual
 #El porcentaje de variación de peso respecto al día anterior
 #Un mensaje personalizado que indique si el cachorro está ganando o perdiendo peso
 #El número de días consecutivos que el cachorro ha mantenido un aumento de peso
+
 # El programa debe continuar solicitando datos hasta que el veterinario indique
 # que ha completado los 15 días de seguimiento o cuando ingrese una marca especial
 # para terminar el registro anticipadamente."
-
-
 # ======================================================================
 
 print('Programa para controlar el peso de un cachorro en Veterinaria\n')
@@ -41,11 +41,11 @@ nombre_cachorro = input('Ingresa el nombre del cachorro: ')
 
 #El ciclo de control principal
 while (dia_actual <= duracion_control_dias):
-    peso_hoy = float(input(f'\nIngresa el peso en gr para {nombre_cachorro} en el dia {dia_actual+1}: '))
+    peso_hoy = float(input(f'\nIngresa el peso en gr para {nombre_cachorro} en el dia {dia_actual}: '))
 
     # Validamos si el peso medido es positivo
     if peso_hoy <= 0:
-        print('Dato del peso erróneo. Intenta nuevamente')
+        print('Dato del peso erróneo, debe ser un valor positivo. Intenta nuevamente')
         continue
 
     #Identificamos acción según el número del día
@@ -61,12 +61,11 @@ while (dia_actual <= duracion_control_dias):
             if dias_consecutivos_incremento > maximo_dias_consecutivos:
                 maximo_dias_consecutivos = dias_consecutivos_incremento
 
-            print(f'{nombre_cachorro} subió de peso. ')
-            print(f'Lleva {dias_consecutivos_incremento} días incrementando. Maximo de días {maximo_dias_consecutivos}')
+            print(f'Hoy subió de peso. Lleva {dias_consecutivos_incremento} días incrementando, con un maximo días consecutivos de {maximo_dias_consecutivos} días')
         else:
             print(f'{nombre_cachorro} no subió de peso')
-            dias_consecutivos_incremento =0
-            print('Se ha reiniciado el contador de días de días consecutivos')
+            dias_consecutivos_incremento=0
+            print(f'Se ha reiniciado el contador de días de días consecutivos. Maximo alcanzado de {maximo_dias_consecutivos} días')
 
     else:
         print('Es el primer dia, no hay diferencia de peso')
@@ -84,12 +83,16 @@ while (dia_actual <= duracion_control_dias):
     #Sentencia de salida: Modificación de la variable de control
     dia_actual += 1
 
-
-
 # Calculos
 
 # Visualización de Resultados
 print('\n*** Resultados ***')
 print(f'El cachorro {nombre_cachorro} terminó el periodo de control con un peso de {peso_hoy} gr')
-print(f'El control se realizó durante {dia_actual} días')
+
+#Validamos si el control se hizo durante todos los 15 días
+if dia_actual >= duracion_control_dias:
+    print(f'El control se realizo durante la totalidad de los {duracion_control_dias} días.')
+else:
+    print(f'El control se realizó durante {dia_actual} días')
+
 print(f'Subió de peso de manera consecutiva maximo {maximo_dias_consecutivos} dias')
