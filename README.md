@@ -55,6 +55,10 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 - Demostrar el funcionamiento del ciclo de control While, Condicionales, contadores y totalizadores.
 - Actualizado a Python 3.13.x
 
+### [AnalisisTemperatura](https://github.com/JuanDRodasM/logprog_python/tree/main/AnalisisTemperatura)
+- Demostrar el funcionamiento del ciclo de control While, Condicionales, contadores y totalizadores.
+- Actualizado a Python 3.13.x
+
 ## Soluciones a examenes anteriores
 
 ### Examen No. 1
