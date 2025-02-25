@@ -46,7 +46,7 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 ### [RegistroHuellaCarbono](https://github.com/JuanDRodasM/logprog_python/tree/main/RegistroHuellaCarbono)
 - Demostrar el funcionamiento del ciclo de control While, Condicionales, contadores y totalizadores.
 - Actualizado a Python 3.13.x
-- 
+
 ### [PesoCachorroVeterinaria](https://github.com/JuanDRodasM/logprog_python/tree/main/PesoCachorroVeterinaria)
 - Demostrar el funcionamiento del ciclo de control While, Condicionales, contadores y totalizadores.
 - Actualizado a Python 3.13.x
@@ -57,6 +57,10 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 
 ### [AnalisisTemperatura](https://github.com/JuanDRodasM/logprog_python/tree/main/AnalisisTemperatura)
 - Demostrar el funcionamiento del ciclo de control While, Condicionales, contadores y totalizadores.
+- Actualizado a Python 3.13.x
+
+### [IndiceMasaCorporal](https://github.com/JuanDRodasM/logprog_python/tree/main/IndiceMasaCorporal)
+- Demostrar el funcionamiento del control de excepciones usando try-except, en combinación con el ciclo while
 - Actualizado a Python 3.13.x
 
 ## Soluciones a examenes anteriores
