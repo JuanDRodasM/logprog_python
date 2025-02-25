@@ -63,6 +63,10 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 - Demostrar el funcionamiento del control de excepciones usando try-except, en combinación con el ciclo while
 - Actualizado a Python 3.13.x
 
+### [TablasMultiplicar](https://github.com/JuanDRodasM/logprog_python/tree/main/TablasMultiplicar)
+- Demostrar el funcionamiento del ciclo for, range y el concepto de los ciclos anidados
+- Actualizado a Python 3.13.x
+
 ## Soluciones a examenes anteriores
 
 ### Examen No. 1
