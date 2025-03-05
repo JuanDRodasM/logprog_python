@@ -70,9 +70,15 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 ### 3. Funciones
 
 ### [EjemploFunciones](https://github.com/JuanDRodasM/logprog_python/tree/main/EjemploFunciones)
-
 - Demostrar el funcionamiento de las funciones, los parametros y los tipos de retorno.
 - Actualizado a Python 3.13.x
+
+### [ConvierteTiempo](https://github.com/JuanDRodasM/logprog_python/tree/main/ConvierteTiempo)
+- Crear una aplicación de consola que implemente un menú de opciones.
+- Crear una conversión de datos de tiempo desde y hacia segundos.
+- Integrar conceptos de control de excepciones y ciclos de control
+- Actualizado a Python 3.13.x
+
 
 
 ## Soluciones a examenes anteriores
