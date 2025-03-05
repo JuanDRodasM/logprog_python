@@ -67,6 +67,14 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 - Demostrar el funcionamiento del ciclo for, range y el concepto de los ciclos anidados
 - Actualizado a Python 3.13.x
 
+### 3. Funciones
+
+### [EjemploFunciones](https://github.com/JuanDRodasM/logprog_python/tree/main/EjemploFunciones)
+
+- Demostrar el funcionamiento de las funciones, los parametros y los tipos de retorno.
+- Actualizado a Python 3.13.x
+
+
 ## Soluciones a examenes anteriores
 
 ### Examen No. 1
