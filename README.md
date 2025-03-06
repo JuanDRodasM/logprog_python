@@ -79,7 +79,11 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 - Integrar conceptos de control de excepciones y ciclos de control
 - Actualizado a Python 3.13.x
 
-
+### [NumerosAmigos](https://github.com/JuanDRodasM/logprog_python/tree/main/NumerosAmigos)
+- Crear una aplicación de consola que identifique si dos numeros enteros son amigos
+- Validar si los datos ingresados son correctos
+- Implementar una función que obtenga la suma de los divisores de un número
+- Actualizado a Python 3.13.x
 
 ## Soluciones a examenes anteriores
 
