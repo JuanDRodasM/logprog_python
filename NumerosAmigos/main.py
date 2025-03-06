@@ -21,13 +21,17 @@ https://es.wikipedia.org/wiki/N%C3%BAmeros_amigos
 def obtener_suma_divisores(numero):
     suma = 0
 
+    print(f'\nValidando los divisores de {numero}...')
+
     #Aqui se utiliza el operador residuo para validar si el divisor es exacto
     for divisor in range(1,numero):
         if(numero % divisor == 0):
+            print(f'Se encontró que {divisor} es divisor de {numero}')
             suma += divisor
 
     return suma
 
+# Función principal
 print('Programa para identificar si dos números enteros A y B son amigos')
 
 datos_correctos = False
@@ -43,7 +47,7 @@ while not datos_correctos:
 suma_divisores_a = obtener_suma_divisores(numero_a)
 suma_divisores_b = obtener_suma_divisores(numero_b)
 
-print(f'La pareja ingresada es ({numero_a},{numero_b})')
+print(f'\nLa pareja ingresada es ({numero_a},{numero_b})')
 print(f'La suma de los divisores para {numero_a} es {suma_divisores_a}')
 print(f'La suma de los divisores para {numero_b} es {suma_divisores_b}')
 
