@@ -1,15 +1,17 @@
 #coding=utf-8
 
-# ===============================================================================
-# Programa:       ConvierteTiempo
-# Contacto:       Juan Dario Rodas - juand.rodasm@upb.edu.co
+"""
+===============================================================================
+ Programa: ConvierteTiempo
+ Contacto: Juan Dario Rodas - juand.rodasm@upb.edu.co
 
-# Propósito:
-# ----------
-#- Crear una aplicación de consola que implemente un menú de opciones.
-#- Crear una conversión de datos de tiempo desde y hacia segundos.
-#- Integrar conceptos de control de excepciones y ciclos de control
-# ===============================================================================
+ Propósito:
+ ----------
+- Crear una aplicación de consola que implemente un menú de opciones.
+- Crear una conversión de datos de tiempo desde y a segundos.
+- Integrar conceptos de control de excepciones y ciclos de control
+ ===============================================================================
+"""
 
 # Función que convierte desde segundos a horas y minutos
 def convertir_desde_segundos():
@@ -19,7 +21,7 @@ def convertir_desde_segundos():
     while dato_correcto is False:
         try:
             segundos = int(input('Ingresa un valor entero para los segundos: '))
-            horas = segundos // 3600;
+            horas = segundos // 3600
             minutos = (segundos - (horas*3600)) // 60
             segundos_restantes = segundos - (horas*3600) - (minutos * 60)
 
@@ -59,7 +61,7 @@ while finaliza_ejecucion is False:
 
     opcion = input('Ingresa el número de la opción deseada: ')
 
-    if(opcion != '1' and opcion !='2' and opcion!='3'):
+    if opcion != '1' and opcion !='2' and opcion!='3':
         print('Opción inválida. Intenta nuevamente')
         continue
 
