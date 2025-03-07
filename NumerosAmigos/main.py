@@ -19,16 +19,19 @@ https://es.wikipedia.org/wiki/N%C3%BAmeros_amigos
 
 # Definición de la función obtener_suma_divisores
 def obtener_suma_divisores(numero):
-    suma = 0
 
     print(f'\nValidando los divisores de {numero}...')
 
     #Aqui se utiliza el operador residuo para validar si el divisor es exacto
+    suma = 0
+    total_divisores = 0
     for divisor in range(1,numero):
         if(numero % divisor == 0):
             print(f'Se encontró que {divisor} es divisor de {numero}')
             suma += divisor
+            total_divisores+=1
 
+    print(f'Se encontraron {total_divisores} divisores')
     return suma
 
 # Función principal
