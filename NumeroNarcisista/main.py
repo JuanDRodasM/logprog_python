@@ -2,20 +2,19 @@
 
 """
 ===============================================================================
- Programa: NumerosAmigos
+ Programa: NumeroNarcisista
  Contacto: Juan Dario Rodas - juand.rodasm@upb.edu.co
 
  Propósito:
  ----------
 - Identificar si un número entero de tres cifras es narcisista
 
-un número narcisista es aquel que es igual a la suma de sus dígitos elevados
+Un número narcisista es aquel que es igual a la suma de sus dígitos elevados
 a la potencia de su número de cifras.
 https://es.wikipedia.org/wiki/N%C3%BAmero_narcisista
 
 Ejemplos: 153 370 371 407
 ===============================================================================
-
 """
 
 # Función que calcula la suma del cubo de las cifras
