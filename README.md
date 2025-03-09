@@ -85,6 +85,24 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 - Implementar una función que obtenga la suma de los divisores de un número
 - Actualizado a Python 3.13.x
 
+### [NumeroNarcisista](https://github.com/JuanDRodasM/logprog_python/tree/main/NumeroNarcisista)
+- Identificar si un número entero de tres cifras es narcisista
+- Actualizado a Python 3.13.x
+
+### 4. Estructuras básicas de datos
+
+### [EjemploListas](https://github.com/JuanDRodasM/logprog_python/tree/main/EjemploListas)
+- Demostración inicial del funcionamiento y manipulación de elementos de una lista
+- Actualizado a Python 3.13.x
+
+### [ListaEnterosAleatorios](https://github.com/JuanDRodasM/logprog_python/tree/main/ListaEnterosAleatorios)
+- Demostración del uso de listas con funciones
+- Generar numeros aleatorios y visualizarlos de manera tabulada
+- Obtener la lista de numeros pares e impares
+- Ordenar las listas resultantes
+- Actualizado a Python 3.13.x
+
+
 ## Soluciones a examenes anteriores
 
 ### Examen No. 1
