@@ -102,6 +102,12 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 - Ordenar las listas resultantes
 - Actualizado a Python 3.13.x
 
+### [CodigoMurcielago](https://github.com/JuanDRodasM/logprog_python/tree/main/CodigoMurcielago)
+- Demostración del uso de listas con funciones
+- Tratamiento de una cadena de caracteres como una lista
+- recorrer una cadena de caracteres con un ciclo de control
+- concatenar elementos de una lista en una cadena de caracteres usando join
+- Actualizado a Python 3.13.x
 
 ## Soluciones a examenes anteriores
 
