@@ -89,6 +89,11 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 - Identificar si un número entero de tres cifras es narcisista
 - Actualizado a Python 3.13.x
 
+### [RiesgosInundaciones](https://github.com/JuanDRodasM/logprog_python/tree/main/RiesgosInundaciones)
+- Crear una aplicación de consola que permita cuantificar la afectación de hogares por inundaciones
+- Actualizado a Python 3.13.x
+
+
 ### 4. Estructuras básicas de datos
 
 ### [EjemploListas](https://github.com/JuanDRodasM/logprog_python/tree/main/EjemploListas)
