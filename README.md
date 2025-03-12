@@ -93,6 +93,11 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 - Crear una aplicación de consola que permita cuantificar la afectación de hogares por inundaciones
 - Actualizado a Python 3.13.x
 
+### [PavimentacionCalles](https://github.com/JuanDRodasM/logprog_python/tree/main/PavimentacionCalles)
+- Crear una aplicación de consola que permita identificación de los tramos pavimentados en una ciudad
+- Actualizado a Python 3.13.x
+
+
 
 ### 4. Estructuras básicas de datos
 
