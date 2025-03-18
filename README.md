@@ -130,3 +130,9 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 ### [Ex01_DiversificacionProduccionLechera](https://github.com/JuanDRodasM/logprog_python/tree/main/Ex01_DiversificacionProduccionLechera)
 - Tema de examen 01: Condicionales y Ciclos de control. Diversificación Producción Lechera. Ejercicio resuelto.
 - Actualizado a Python 3.13.x
+
+### Examen No. 2
+
+### [Ex02_TransicionEnergetica](https://github.com/JuanDRodasM/logprog_python/tree/main/Ex02_TransicionEnergetica)
+- Tema de examen 02: Funciones, Control de errores. Monitoreo Generación Energía. Ejercicio resuelto.
+- Actualizado a Python 3.13.x
