@@ -119,6 +119,12 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 - concatenar elementos de una lista en una cadena de caracteres usando join
 - Actualizado a Python 3.13.x
 
+### [TransicionEnergeticaListas](https://github.com/JuanDRodasM/logprog_python/tree/main/TransicionEnergeticaListas)
+- Demostración del uso de listas con funciones
+- Utilizar listas para optimizar la declaración de variables
+- Actualizado a Python 3.13.x
+
+
 ## Soluciones a examenes anteriores
 
 ### Examen No. 1

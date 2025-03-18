@@ -2,12 +2,13 @@
 
 """
  ======================================================================
- Programa:       Ex02_TransicionEnergetica
+ Programa:       TransicionEnergeticaListas
  Contacto:       Juan Dario Rodas - juand.rodasm@upb.edu.co
 
  Propósito:
  ----------
 - Crear una aplicación de consola que permita monitoreo de generación de energía
+- Actualización del proyecto Ex02_TransicionEnergetica utilizando listas
  ======================================================================
 
 Transición Energética
@@ -47,45 +48,36 @@ def calcular_promedio_generacion(potencia_fuente, eventos_fuente):
         return (potencia_fuente / eventos_fuente)
     except ZeroDivisionError:
         return 0
-"""
-
-    # Esta es la versión de prevención usando el condicional
-    if eventos_fuente ==0:
-        return 0
-    else:
-        return (potencia_fuente / eventos_fuente)
-"""
 
 #Aqui comienza nuestro programa
-eventos_eolica = 0
-eventos_hidrica = 0
-eventos_solar = 0
-eventos_termica = 0
-
-potencia_elolica = 0
-potencia_hidrica = 0
-potencia_solar = 0
-potencia_termica = 0
-
 potencia_generada = 0 # Variable de Control
 meta_potencia = 5
 potencia_minima = 0.75
 potencia_maxima = 1.75
 
-print('Programa para monitorear la generación energética')
+fuentes_energia = ['H','E','T','N','S']
+eventos = [0,0,0,0,0]
+potencias = [0.0, 0.0, 0.0, 0.0, 0.0]
+
+print('Programa para monitorear la generación energética - Versión usando Listas')
 print(f'El rango de generación por evento de cada fuente está entre [{potencia_minima};{potencia_maxima}] GWh')
 print('Las fuentes pueden ser: ')
 print('H: Hídrica ')
 print('E: Eólica ')
 print('T: Térmica ')
+print('N: Nuclear')
 print('S: Solar ')
 
 while potencia_generada < meta_potencia:
-    tipo_fuente = input('\nIngresa el tipo de fuente (H/E/T/S): ').upper()
 
-    if tipo_fuente != 'H' and tipo_fuente !='E' and tipo_fuente != 'T' and tipo_fuente != 'S':
-        print('Tipo de fuente errónea. El dato a ingresar debe ser (H/E/T/S). ')
+    #Aqui leemos el tipo de fuente
+    tipo_fuente = input('\nIngresa el tipo de fuente (H/E/N/T/S): ').upper()
+
+    if tipo_fuente not in fuentes_energia:
+        print('La fuente ingresada no es válida. Intenta nuevamente')
         continue
+
+    #Aqui leemos la potencia ingresada
     try:
         potencia_ingresada = float(input('Ingresa la potencia generada: '))
 
@@ -98,34 +90,42 @@ while potencia_generada < meta_potencia:
         continue
 
     if tipo_fuente == 'H':
-        potencia_hidrica += potencia_ingresada
-        eventos_hidrica +=1
+        potencias[0] += potencia_ingresada
+        eventos[0] +=1
 
     if tipo_fuente == 'E':
-        potencia_elolica += potencia_ingresada
-        eventos_eolica +=1
+        potencias[1] += potencia_ingresada
+        eventos[1] +=1
 
     if tipo_fuente == 'T':
-        potencia_termica += potencia_ingresada
-        eventos_termica +=1
+        potencias[2] += potencia_ingresada
+        eventos[2] +=1
+
+    if tipo_fuente == 'N':
+        potencias[3] += potencia_ingresada
+        eventos[3] +=1
 
     if tipo_fuente == 'S':
-        potencia_solar += potencia_ingresada
-        eventos_solar +=1
+        potencias[4] += potencia_ingresada
+        eventos[4] +=1
 
-    #Sentencia de salida
-    potencia_generada = potencia_hidrica + potencia_elolica + potencia_solar + potencia_termica
+    #Sentencia de salida - Calculamos la potencia generada usando un for
+    #que recorra toda la lista de potencias
+    potencia_generada = 0
+    for potencia_fuente in potencias:
+        potencia_generada += potencia_fuente
+
 
 # Calculamos resultados
-promedio_termica = calcular_promedio_generacion(potencia_termica,eventos_termica)
-promedio_eolica = calcular_promedio_generacion(potencia_elolica,eventos_eolica)
-promedio_solar = calcular_promedio_generacion(potencia_solar,eventos_solar)
-promedio_hidrica = calcular_promedio_generacion(potencia_hidrica,eventos_hidrica)
+promedios = [0.0,0.0,0.0,0.0,0.0]
+
+for indice in range(len(promedios)):
+    promedios[indice] = calcular_promedio_generacion(potencias[indice],eventos[indice])
+
 
 # Visualizamos resultados
 print('\n*** Resultados Obtenidos ****')
 print(f'Potencia total generada: {potencia_generada:.2f}')
-print(f'Hidrica: Eventos: {eventos_hidrica}, potencia: {potencia_hidrica}, promedio {promedio_hidrica:.2f}')
-print(f'Solar: Eventos: {eventos_solar}, potencia: {potencia_solar}, promedio {promedio_solar:.2f}')
-print(f'Térmica: Eventos: {eventos_termica}, potencia: {potencia_termica}, promedio {promedio_termica:.2f}')
-print(f'Eólica: Eventos: {eventos_eolica}, potencia: {potencia_elolica}, promedio {promedio_eolica:.2f}')
+
+for indice in range(len(fuentes_energia)):
+    print(f'{fuentes_energia[indice]}: Eventos: {eventos[indice]}, potencia: {potencias[indice]:.2f}, promedio: {promedios[indice]:.2f}')
