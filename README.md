@@ -142,3 +142,7 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 ### [Ex02_TransicionEnergetica](https://github.com/JuanDRodasM/logprog_python/tree/main/Ex02_TransicionEnergetica)
 - Tema de examen 02: Funciones, Control de errores. Monitoreo Generación Energía. Ejercicio resuelto.
 - Actualizado a Python 3.13.x
+
+### [Ex02_ColonizacionMarte](https://github.com/JuanDRodasM/logprog_python/tree/main/Ex02_ColonizacionMarte)
+- Tema de examen 02: Funciones, Control de errores. Monitoreo Lanzamientos a Marte. Ejercicio resuelto.
+- Actualizado a Python 3.13.x
