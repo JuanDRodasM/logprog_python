@@ -124,6 +124,12 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 - Utilizar listas para optimizar la declaración de variables
 - Actualizado a Python 3.13.x
 
+### [IdentificaPalindromos](https://github.com/JuanDRodasM/logprog_python/tree/main/IdentificaPalindromos)
+- Validar si una cadena de caracteres es un palíndromo, utilizando al menos tres métodos diferentes
+- Método 1: usar listas y ciclos for
+- Método 2: usar una lista y reversarla
+- Método 3: usar la técnica de slicing
+- Actualizado a Python 3.13.x
 
 ## Soluciones a examenes anteriores
 
