@@ -124,9 +124,9 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 - Utilizar listas para optimizar la declaración de variables
 - Actualizado a Python 3.13.x
 
-### [TransicionEnergeticaDiccionario](https://github.com/JuanDRodasM/logprog_python/tree/main/TransicionEnergeticaDiccionario)
+### [ColonizacionMarteListas](https://github.com/JuanDRodasM/logprog_python/tree/main/ColonizacionMarteListas)
 - Demostración del uso de listas con funciones
-- Utilizar diccionarios para optimizar la declaración de variables
+- Utilizar listas para optimizar la declaración de variables
 - Actualizado a Python 3.13.x
 
 ### [IdentificaPalindromos](https://github.com/JuanDRodasM/logprog_python/tree/main/IdentificaPalindromos)
@@ -139,6 +139,12 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 ### [EjemploDiccionarios](https://github.com/JuanDRodasM/logprog_python/tree/main/EjemploDiccionarios)
 - Demostración inicial del funcionamiento y manipulación de un dicicionario
 - Actualizado a Python 3.13.x
+
+### [TransicionEnergeticaDiccionario](https://github.com/JuanDRodasM/logprog_python/tree/main/TransicionEnergeticaDiccionario)
+- Demostración del uso de listas con funciones
+- Utilizar diccionarios para optimizar la declaración de variables
+- Actualizado a Python 3.13.x
+
 
 ## Soluciones a examenes anteriores
 
