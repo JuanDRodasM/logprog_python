@@ -131,6 +131,10 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 - Método 3: usar la técnica de slicing
 - Actualizado a Python 3.13.x
 
+### [EjemploDiccionarios](https://github.com/JuanDRodasM/logprog_python/tree/main/EjemploDiccionarios)
+- Demostración inicial del funcionamiento y manipulación de un dicicionario
+- Actualizado a Python 3.13.x
+
 ## Soluciones a examenes anteriores
 
 ### Examen No. 1
