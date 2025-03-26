@@ -145,6 +145,10 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 - Utilizar diccionarios para optimizar la declaración de variables
 - Actualizado a Python 3.13.x
 
+### [ColonizacionMarteDiccionario](https://github.com/JuanDRodasM/logprog_python/tree/main/ColonizacionMarteDiccionario)
+- Demostración del uso de diccionarios con funciones
+- Utilizar diccionario para optimizar la declaración de variables
+- Actualizado a Python 3.13.x
 
 ## Soluciones a examenes anteriores
 
