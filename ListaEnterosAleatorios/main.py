@@ -20,9 +20,10 @@ import random
 def visualizar_lista(la_lista):
     for posicion in range(0, len(la_lista)):
         if (posicion+1) % 10 ==0:
-            print()
+            print(f'{la_lista[posicion]}')
         else:
             print(la_lista[posicion],'\t', end="")
+    print()
 
 # Obtiene una lista de numeros pares incluida en la lista parámetro
 def obtener_lista_pares(la_lista):
