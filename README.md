@@ -150,6 +150,10 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 - Utilizar diccionario para optimizar la declaración de variables
 - Actualizado a Python 3.13.x
 
+### [EjemploPilasColas](https://github.com/JuanDRodasM/logprog_python/tree/main/EjemploPilasColas)
+- Demostración inicial del funcionamiento y diferencias entre una pila y una cola
+- Actualizado a Python 3.13.x
+
 ## Soluciones a examenes anteriores
 
 ### Examen No. 1
