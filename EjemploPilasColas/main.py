@@ -1,5 +1,4 @@
 from collections import deque
-
 #coding=utf-8
 
 """

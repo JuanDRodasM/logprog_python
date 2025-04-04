@@ -26,7 +26,6 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 ### 2. Condicionales y ciclos de control
 
 ### [EjemploCondicionales](https://github.com/JuanDRodasM/logprog_python/tree/main/EjemploCondicionales)
-
 - Demostrar el funcionamiento de los condicionales utilizando operadores de igualdad y operadores lógicos.
 - Actualizado a Python 3.13.x
 
@@ -98,7 +97,6 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 - Actualizado a Python 3.13.x
 
 
-
 ### 4. Estructuras básicas de datos
 
 ### [EjemploListas](https://github.com/JuanDRodasM/logprog_python/tree/main/EjemploListas)
@@ -152,6 +150,10 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 
 ### [EjemploPilasColas](https://github.com/JuanDRodasM/logprog_python/tree/main/EjemploPilasColas)
 - Demostración inicial del funcionamiento y diferencias entre una pila y una cola
+- Actualizado a Python 3.13.x
+
+### [CafeteriaEncolada](https://github.com/JuanDRodasM/logprog_python/tree/main/CafeteriaEncolada)
+- Aplicación de una cola para gestionar clientes de una cafeteria
 - Actualizado a Python 3.13.x
 
 ## Soluciones a examenes anteriores
