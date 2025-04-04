@@ -158,6 +158,7 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 
 ### [AbordajeAvionUsandoColas](https://github.com/JuanDRodasM/logprog_python/tree/main/AbordajeAvionUsandoColas)
 - Aplicación de una cola prioritaria para gestionar abordaje a un avión
+- Se utiliza dictionary comprenhension para definir dinámicamente un diccionario
 - Actualizado a Python 3.13.x
 
 ## Soluciones a examenes anteriores
