@@ -156,6 +156,10 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 - Aplicación de una cola para gestionar clientes de una cafeteria
 - Actualizado a Python 3.13.x
 
+### [AbordajeAvionUsandoColas](https://github.com/JuanDRodasM/logprog_python/tree/main/AbordajeAvionUsandoColas)
+- Aplicación de una cola prioritaria para gestionar abordaje a un avión
+- Actualizado a Python 3.13.x
+
 ## Soluciones a examenes anteriores
 
 ### Examen No. 1
