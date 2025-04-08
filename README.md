@@ -161,6 +161,11 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 - Se utiliza dictionary comprenhension para definir dinámicamente un diccionario
 - Actualizado a Python 3.13.x
 
+### [MaterialesConstruccion](https://github.com/JuanDRodasM/logprog_python/tree/main/MaterialesConstruccion)
+- Aplicación de listas y diccionarios para simular la generación de ordenes de materiales de construcción
+- Se deben identificar ordenes nulas (sin productos) y prioritarias (todos los productos)
+- Actualizado a Python 3.13.x
+
 ## Soluciones a examenes anteriores
 
 ### Examen No. 1
