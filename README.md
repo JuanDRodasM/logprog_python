@@ -182,3 +182,14 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 ### [Ex02_ColonizacionMarte](https://github.com/JuanDRodasM/logprog_python/tree/main/Ex02_ColonizacionMarte)
 - Tema de examen 02: Funciones, Control de errores. Monitoreo Lanzamientos a Marte. Ejercicio resuelto.
 - Actualizado a Python 3.13.x
+
+### Recuperatorios
+
+### [Rec01_EmpanadasGourmet](https://github.com/JuanDRodasM/logprog_python/tree/main/Rec01_EmpanadasGourmet)
+- Aplicación para gestionar la producción de empanadas gourmet
+- Se generan 300 combinaciones aleatorias entre masa, color y relleno
+- Se utiliza un diccionario para almacenar la cantidad de veces que la combinación es producida
+- Se identifica la combinación que más veces fue producida usando una función
+- Actualizado a Python 3.13.x
+
+
