@@ -171,22 +171,31 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 ### Examen No. 1
 
 ### [Ex01_FumigacionesConjuntoResidencial](https://github.com/JuanDRodasM/logprog_python/tree/main/Ex01_FumigacionesConjuntoResidencial)
-- Tema de examen 01: Condicionales y Ciclos de control. Fumigaciones en Conjunto Residencial. Ejercicio resuelto.
+- Tema de examen 01: Condicionales y Ciclos de control. Fumigaciones en Conjunto Residencial. 
 - Actualizado a Python 3.13.x
 
 ### [Ex01_DiversificacionProduccionLechera](https://github.com/JuanDRodasM/logprog_python/tree/main/Ex01_DiversificacionProduccionLechera)
-- Tema de examen 01: Condicionales y Ciclos de control. Diversificación Producción Lechera. Ejercicio resuelto.
+- Tema de examen 01: Condicionales y Ciclos de control. Diversificación Producción Lechera. 
 - Actualizado a Python 3.13.x
 
 ### Examen No. 2
 
 ### [Ex02_TransicionEnergetica](https://github.com/JuanDRodasM/logprog_python/tree/main/Ex02_TransicionEnergetica)
-- Tema de examen 02: Funciones, Control de errores. Monitoreo Generación Energía. Ejercicio resuelto.
+- Tema de examen 02: Funciones, Control de errores. Monitoreo Generación Energía. 
 - Actualizado a Python 3.13.x
 
 ### [Ex02_ColonizacionMarte](https://github.com/JuanDRodasM/logprog_python/tree/main/Ex02_ColonizacionMarte)
 - Tema de examen 02: Funciones, Control de errores. Monitoreo Lanzamientos a Marte. Ejercicio resuelto.
 - Actualizado a Python 3.13.x
+
+
+### Examen No. 3
+
+### [Ex03_PedidosPasteleria](https://github.com/JuanDRodasM/logprog_python/tree/main/Ex03_PedidosPasteleria)
+- Tema de examen 03: Funciones, Control de errores, Listas y diccionarios. Gestión pedidos para pastelería. 
+- Actualizado a Python 3.13.x
+
+
 
 ### Recuperatorios
 
