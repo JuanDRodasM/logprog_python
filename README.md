@@ -195,6 +195,10 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 - Tema de examen 03: Funciones, Control de errores, Listas y diccionarios. Gestión pedidos para pastelería. 
 - Actualizado a Python 3.13.x
 
+### [Ex03_AbastecimientoMedicamentos](https://github.com/JuanDRodasM/logprog_python/tree/main/Ex03_AbastecimientoMedicamentos)
+- Tema de examen 03: Funciones, Control de errores, Listas y diccionarios. Abastecimiento de medicamentos. 
+- Actualizado a Python 3.13.x
+
 
 
 ### Recuperatorios
