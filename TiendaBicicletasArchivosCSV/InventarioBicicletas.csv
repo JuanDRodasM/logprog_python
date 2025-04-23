@@ -1,0 +1,101 @@
+Codigo;Marca;Tamaño;Cambios;Color;Tracción
+1;BMX;Pequeña;5;Rosa;Mecánica
+2;GW;Grande;9;Negro;Mecánica
+3;Haro;Mediana;2;Rojo Carmesí;Eléctrica
+4;BMX;Mediana;6;Azul Eléctrico;Mecánica
+5;Haro;Pequeña;2;Rojo Carmesí;Mecánica
+6;Haro;Mediana;6;Rojo Carmesí;Eléctrica
+7;Shimano;Mediana;10;Rosa;Hibrida
+8;Shimano;Grande;8;Rojo Carmesí;Hibrida
+9;Haro;Grande;7;Azul Eléctrico;Hibrida
+10;GW;Pequeña;10;Negro;Hibrida
+11;BMX;Pequeña;3;Azul Eléctrico;Hibrida
+12;BMX;Mediana;3;Azul Eléctrico;Mecánica
+13;GW;Mediana;7;Rosa;Hibrida
+14;Shimano;Pequeña;2;Azul Eléctrico;Hibrida
+15;Shimano;Grande;4;Azul Eléctrico;Eléctrica
+16;BMX;Pequeña;3;Rosa;Hibrida
+17;BMX;Pequeña;7;Negro;Mecánica
+18;BMX;Mediana;5;Azul Eléctrico;Eléctrica
+19;GW;Grande;10;Azul Eléctrico;Hibrida
+20;Shimano;Pequeña;4;Rojo Carmesí;Eléctrica
+21;Shimano;Mediana;7;Rojo Carmesí;Mecánica
+22;Haro;Grande;7;Rosa;Hibrida
+23;BMX;Mediana;2;Rojo Carmesí;Eléctrica
+24;Shimano;Grande;7;Rosa;Eléctrica
+25;Shimano;Pequeña;4;Negro;Mecánica
+26;Shimano;Pequeña;9;Rosa;Hibrida
+27;BMX;Grande;3;Negro;Hibrida
+28;GW;Grande;7;Negro;Hibrida
+29;BMX;Mediana;8;Rojo Carmesí;Hibrida
+30;Haro;Pequeña;9;Azul Eléctrico;Hibrida
+31;Shimano;Mediana;6;Rojo Carmesí;Mecánica
+32;BMX;Grande;4;Negro;Eléctrica
+33;BMX;Mediana;7;Rojo Carmesí;Mecánica
+34;Shimano;Pequeña;2;Rojo Carmesí;Mecánica
+35;Haro;Grande;8;Rosa;Mecánica
+36;Shimano;Grande;9;Rosa;Hibrida
+37;Haro;Pequeña;8;Azul Eléctrico;Mecánica
+38;GW;Grande;5;Azul Eléctrico;Mecánica
+39;BMX;Grande;7;Negro;Mecánica
+40;GW;Pequeña;5;Azul Eléctrico;Hibrida
+41;Haro;Pequeña;6;Azul Eléctrico;Eléctrica
+42;Shimano;Pequeña;7;Azul Eléctrico;Hibrida
+43;Haro;Grande;3;Rosa;Eléctrica
+44;BMX;Grande;5;Azul Eléctrico;Mecánica
+45;GW;Grande;4;Rojo Carmesí;Mecánica
+46;Shimano;Pequeña;6;Negro;Mecánica
+47;Shimano;Grande;5;Rojo Carmesí;Eléctrica
+48;Haro;Mediana;9;Negro;Hibrida
+49;GW;Pequeña;2;Azul Eléctrico;Eléctrica
+50;Haro;Mediana;2;Negro;Eléctrica
+51;GW;Grande;3;Azul Eléctrico;Hibrida
+52;Shimano;Grande;10;Rojo Carmesí;Eléctrica
+53;GW;Mediana;2;Rosa;Hibrida
+54;Haro;Pequeña;5;Azul Eléctrico;Mecánica
+55;Shimano;Mediana;7;Negro;Mecánica
+56;GW;Grande;3;Rojo Carmesí;Mecánica
+57;Haro;Mediana;6;Azul Eléctrico;Mecánica
+58;BMX;Pequeña;3;Azul Eléctrico;Eléctrica
+59;Haro;Pequeña;6;Negro;Hibrida
+60;GW;Grande;9;Negro;Mecánica
+61;GW;Mediana;10;Azul Eléctrico;Hibrida
+62;Haro;Pequeña;2;Negro;Hibrida
+63;Shimano;Mediana;9;Azul Eléctrico;Eléctrica
+64;BMX;Grande;5;Rojo Carmesí;Mecánica
+65;Haro;Pequeña;9;Rojo Carmesí;Eléctrica
+66;GW;Grande;7;Azul Eléctrico;Mecánica
+67;BMX;Pequeña;2;Negro;Hibrida
+68;BMX;Mediana;9;Negro;Eléctrica
+69;BMX;Pequeña;6;Azul Eléctrico;Hibrida
+70;Haro;Pequeña;8;Azul Eléctrico;Mecánica
+71;GW;Pequeña;7;Azul Eléctrico;Mecánica
+72;BMX;Mediana;2;Rojo Carmesí;Hibrida
+73;BMX;Mediana;6;Rosa;Hibrida
+74;BMX;Mediana;5;Negro;Eléctrica
+75;GW;Grande;10;Rosa;Mecánica
+76;Haro;Pequeña;3;Rojo Carmesí;Mecánica
+77;Haro;Grande;7;Rojo Carmesí;Hibrida
+78;BMX;Grande;7;Negro;Eléctrica
+79;GW;Grande;6;Rosa;Mecánica
+80;GW;Pequeña;10;Rojo Carmesí;Mecánica
+81;Shimano;Pequeña;2;Rosa;Eléctrica
+82;BMX;Pequeña;8;Azul Eléctrico;Eléctrica
+83;BMX;Pequeña;3;Rojo Carmesí;Hibrida
+84;Shimano;Pequeña;6;Rojo Carmesí;Hibrida
+85;GW;Mediana;10;Rosa;Eléctrica
+86;GW;Pequeña;9;Negro;Hibrida
+87;Shimano;Grande;5;Rosa;Hibrida
+88;BMX;Pequeña;7;Rosa;Eléctrica
+89;GW;Mediana;7;Azul Eléctrico;Hibrida
+90;Haro;Grande;8;Negro;Hibrida
+91;Haro;Pequeña;3;Negro;Mecánica
+92;BMX;Grande;5;Rojo Carmesí;Eléctrica
+93;Shimano;Pequeña;10;Rojo Carmesí;Hibrida
+94;GW;Pequeña;8;Rojo Carmesí;Mecánica
+95;BMX;Pequeña;6;Negro;Hibrida
+96;BMX;Grande;5;Negro;Mecánica
+97;Shimano;Pequeña;2;Negro;Hibrida
+98;GW;Mediana;7;Rojo Carmesí;Mecánica
+99;Shimano;Mediana;3;Rosa;Mecánica
+100;BMX;Grande;6;Rosa;Eléctrica
