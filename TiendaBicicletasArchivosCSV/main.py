@@ -1,4 +1,5 @@
 import random
+import csv
 
 #coding=utf-8
 """
@@ -16,7 +17,7 @@ import random
 """
 #Función para visualizar el contenido del diccionario
 def visualiza_diccionario_biciletas(un_diccionario):
-    print('\nContenido del inventario:')
+    print(f'\n Total entradas: {len(un_diccionario)}. Contenido del inventario:')
     for llave in un_diccionario.keys():
         print(f'Codigo: {llave}')
         for detalle in un_diccionario[llave].keys():
@@ -29,7 +30,7 @@ def genera_encabezado_archivo(un_diccionario):
     #Utilizamos el primer elemento del diccionario para obtener sus llaves
     #pues serán los encabezados de las columnas
     primer_elemento = list(un_diccionario.keys())[0]
-    columnas = ['Codigo'] + list(un_diccionario[primer_elemento].keys())
+    columnas = ['Código'] + list(un_diccionario[primer_elemento].keys())
     encabezado = ';' .join(columnas) + '\n'
     return encabezado
 
@@ -60,16 +61,46 @@ def guarda_archivo_csv(un_diccionario,un_archivo_csv):
 
     print(f"Datos guardados en {un_archivo_csv}")
 
+#Función para leer el contenido de un archivo CSV y almacenarlo en un diccionario
+def lee_diccionario_desde_archivo(un_archivo_csv):
+    diccionario_inventario = {}
+
+    try:
+        with open(un_archivo_csv,'r', encoding='utf-8') as el_archivo:
+            lector = csv.reader(el_archivo,delimiter=';')
+
+            #Leemos la primera linea que contiene los encabezado
+            encabezado = next(lector)
+
+            print(f'El encabezado: {encabezado}')
+
+            #Leemos el resto de las lineas
+            for fila in lector:
+                if len(fila) >= 6: #Aseguramos que la fila tiene los 6 campos
+                    codigo = fila[0]
+                    diccionario_inventario[codigo] = {
+                        'Marca': fila[1],
+                        'Tamaño': fila[2],
+                        'Cambios': int(fila[3]) if fila[3].isdigit() else fila[3],
+                        'Color': fila[4],
+                        'Tracción': fila[5]
+                    }
+
+    except FileNotFoundError as error:
+        print(f'Error al cargar el archivo: {error}')
+
+    return diccionario_inventario
+
 #Funcion Principal
 print('Programa para almacenar el inventario de Bicicletas en un archivo CSV')
 
-tamaños = ['Grande','Mediana','Pequeña']
-marcas = ['GW','BMX','Shimano','Haro']
-colores = ['Rosa','Azul Eléctrico', 'Negro', 'Rojo Carmesí']
+tamaños = ['Gigante','Grande','Mediana','Pequeña','Infantil']
+marcas = ['GW','BMX','Shimano','Haro','Trek']
+colores = ['Rosa','Azul Eléctrico','Blanco', 'Negro', 'Rojo Carmesí']
 tracciones = ['Eléctrica', 'Mecánica', 'Hibrida']
 
 #Aqui generamos el diccionario a partir de las listas, usando dictionary comprenhension
-total_bicicletas = 100
+total_bicicletas = 8
 diccionario_bicicletas = {
     f'{codigo}':{
         'Marca': random.choice(marcas),
@@ -81,6 +112,7 @@ diccionario_bicicletas = {
     for codigo in range(1,total_bicicletas+1)
 }
 
+
 visualiza_diccionario_biciletas(diccionario_bicicletas)
 
 encabezado = genera_encabezado_archivo(diccionario_bicicletas)
@@ -90,4 +122,8 @@ lineas_archivo = genera_lineas_archivo(diccionario_bicicletas)
 for linea in lineas_archivo:
     print(linea)
 
-guarda_archivo_csv(diccionario_bicicletas,'InventarioBicicletas.csv')
+guarda_archivo_csv(diccionario_bicicletas,'Inventario_bicicletas.csv')
+
+diccionario_recuperado = lee_diccionario_desde_archivo('Inventario_bicicletas.csv')
+
+visualiza_diccionario_biciletas(diccionario_recuperado)

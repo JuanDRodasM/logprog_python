@@ -67,6 +67,7 @@ diccionario_zapatos = {
     '4': {'Marca': 'Reebok', 'Referencia': 'Floatzig X1', 'Talla': 8.0, 'Cantidad': 56}
 }
 
+"""
 visualiza_diccionario_zapatos(diccionario_zapatos)
 
 encabezado = genera_encabezado_archivo(diccionario_zapatos)
@@ -75,5 +76,6 @@ print(encabezado)
 lineas_archivo = genera_lineas_archivo(diccionario_zapatos)
 for linea in lineas_archivo:
     print(linea)
+"""
 
-guarda_archivo_csv(diccionario_zapatos,'inventarioZapatos.csv')
+guarda_archivo_csv(diccionario_zapatos,'inventario_zapatos.csv')

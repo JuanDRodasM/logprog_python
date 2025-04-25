@@ -166,6 +166,18 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 - Se deben identificar ordenes nulas (sin productos) y prioritarias (todos los productos)
 - Actualizado a Python 3.13.x
 
+### 5. Manipulación de Archivos
+
+### [TiendaZapatosArchivosCSV](https://github.com/JuanDRodasM/logprog_python/tree/main/TiendaZapatosArchivosCSV)
+- Aplicación que almacena un diccionario de inventario de zapatos en un
+- archivo de texto plano en formato CSV (Comma Separated Values)
+- Actualizado a Python 3.13.x
+
+### [TiendaBicicletasArchivosCSV](https://github.com/JuanDRodasM/logprog_python/tree/main/TiendaBicicletasArchivosCSV)
+- Aplicación que almacena un diccionario de inventario de bicicletas en un archivo de texto plano en formato CSV (Comma Separated Values)
+- La creación del diccionario se hace usando dictionary comprenhension a partir de listas que tienen valores para los atributos
+- Actualizado a Python 3.13.x
+
 ## Soluciones a examenes anteriores
 
 ### Examen No. 1
