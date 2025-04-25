@@ -178,6 +178,11 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 - La creación del diccionario se hace usando dictionary comprenhension a partir de listas que tienen valores para los atributos
 - Actualizado a Python 3.13.x
 
+### [TiendaBicicletasArchivosXML](https://github.com/JuanDRodasM/logprog_python/tree/main/TiendaBicicletasArchivosXML)
+- Aplicación que almacena un diccionario de inventario de bicicletas en un archivo de texto plano en formato XML (Extensible Markup Language)
+- La creación del diccionario se hace usando dictionary comprenhension a partir de listas que tienen valores para los atributos
+- Actualizado a Python 3.13.x
+
 ## Soluciones a examenes anteriores
 
 ### Examen No. 1
