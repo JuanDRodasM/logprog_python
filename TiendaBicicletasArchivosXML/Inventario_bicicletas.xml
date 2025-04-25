@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<bicicletas>
+    <bicicleta codigo="1">
+        <Marca>BMX</Marca>
+        <Dimension>Grande</Dimension>
+        <Cambios>6</Cambios>
+        <Color>Blanco</Color>
+        <Traccion>Eléctrica</Traccion>
+    </bicicleta>
+    <bicicleta codigo="2">
+        <Marca>Trek</Marca>
+        <Dimension>Infantil</Dimension>
+        <Cambios>6</Cambios>
+        <Color>Rosa</Color>
+        <Traccion>Mecánica</Traccion>
+    </bicicleta>
+    <bicicleta codigo="3">
+        <Marca>Shimano</Marca>
+        <Dimension>Grande</Dimension>
+        <Cambios>5</Cambios>
+        <Color>Rosa</Color>
+        <Traccion>Mecánica</Traccion>
+    </bicicleta>
+    <bicicleta codigo="4">
+        <Marca>Trek</Marca>
+        <Dimension>Gigante</Dimension>
+        <Cambios>7</Cambios>
+        <Color>Negro</Color>
+        <Traccion>Mecánica</Traccion>
+    </bicicleta>
+    <bicicleta codigo="5">
+        <Marca>GW</Marca>
+        <Dimension>Grande</Dimension>
+        <Cambios>2</Cambios>
+        <Color>Rosa</Color>
+        <Traccion>Hibrida</Traccion>
+    </bicicleta>
+    <bicicleta codigo="6">
+        <Marca>BMX</Marca>
+        <Dimension>Gigante</Dimension>
+        <Cambios>9</Cambios>
+        <Color>Azul Eléctrico</Color>
+        <Traccion>Hibrida</Traccion>
+    </bicicleta>
+    <bicicleta codigo="7">
+        <Marca>Shimano</Marca>
+        <Dimension>Infantil</Dimension>
+        <Cambios>2</Cambios>
+        <Color>Rosa</Color>
+        <Traccion>Hibrida</Traccion>
+    </bicicleta>
+    <bicicleta codigo="8">
+        <Marca>BMX</Marca>
+        <Dimension>Infantil</Dimension>
+        <Cambios>3</Cambios>
+        <Color>Rosa</Color>
+        <Traccion>Hibrida</Traccion>
+    </bicicleta>
+    <bicicleta codigo="9">
+        <Marca>Shimano</Marca>
+        <Dimension>Gigante</Dimension>
+        <Cambios>6</Cambios>
+        <Color>Negro</Color>
+        <Traccion>Hibrida</Traccion>
+    </bicicleta>
+    <bicicleta codigo="10">
+        <Marca>Shimano</Marca>
+        <Dimension>Infantil</Dimension>
+        <Cambios>5</Cambios>
+        <Color>Blanco</Color>
+        <Traccion>Hibrida</Traccion>
+    </bicicleta>
+</bicicletas>

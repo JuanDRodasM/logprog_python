@@ -5,7 +5,7 @@ from xml.dom import minidom
 #coding=utf-8
 """
 ===============================================================================
- Programa: TiendaBicicletasArchivosCSV
+ Programa: TiendaBicicletasArchivosXML
  Contacto: Juan Dario Rodas - juand.rodasm@upb.edu.co
 
  Propósito:
@@ -32,7 +32,7 @@ def guarda_archivo_xml(un_diccionario,un_archivo_xml):
 
     # Agregamos cada bicicleta como un elemento hijo
     for codigo, detalle in un_diccionario.items():
-        bicicleta = et.SubElement(nodo_raiz, "bicicletas")
+        bicicleta = et.SubElement(nodo_raiz, "bicicleta")
 
         # Agregamos el codigo como propiedad
         bicicleta.set("codigo", codigo)
@@ -61,7 +61,7 @@ colores = ['Rosa','Azul Eléctrico','Blanco', 'Negro', 'Rojo Carmesí']
 tracciones = ['Eléctrica', 'Mecánica', 'Hibrida']
 
 #Aqui generamos el diccionario a partir de las listas, usando dictionary comprenhension
-total_bicicletas = 5
+total_bicicletas = 10
 diccionario_bicicletas = {
     f'{codigo}':{
         'Marca': random.choice(marcas),
