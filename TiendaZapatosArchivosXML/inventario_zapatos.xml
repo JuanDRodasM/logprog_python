@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<zapatos>
+   <zapato codigo="1">
+      <marca>Adidas</marca>
+      <color>Gris</color>
+      <talla>7</talla>
+      <estilo>Corte Alto</estilo>
+   </zapato>
+   <zapato codigo="2">
+      <marca>Adidas</marca>
+      <color>Blanco</color>
+      <talla>7</talla>
+      <estilo>Vintage</estilo>
+   </zapato>
+   <zapato codigo="3">
+      <marca>Nike</marca>
+      <color>Gris</color>
+      <talla>7</talla>
+      <estilo>Urbanos</estilo>
+   </zapato>
+   <zapato codigo="4">
+      <marca>Puma</marca>
+      <color>Azul</color>
+      <talla>8</talla>
+      <estilo>Vintage</estilo>
+   </zapato>
+</zapatos>
