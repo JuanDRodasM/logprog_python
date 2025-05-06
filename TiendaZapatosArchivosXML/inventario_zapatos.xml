@@ -1,27 +1,75 @@
 <?xml version='1.0' encoding='utf-8'?>
 <zapatos>
-   <zapato codigo="1">
+   <zapato código="1">
+      <marca>Reebok</marca>
+      <color>Rojo</color>
+      <talla>10</talla>
+      <estilo>Running</estilo>
+   </zapato>
+   <zapato código="2">
+      <marca>Nike</marca>
+      <color>Rojo</color>
+      <talla>13</talla>
+      <estilo>Running</estilo>
+   </zapato>
+   <zapato código="3">
       <marca>Adidas</marca>
-      <color>Gris</color>
+      <color>Rojo</color>
+      <talla>9</talla>
+      <estilo>Vintage</estilo>
+   </zapato>
+   <zapato código="4">
+      <marca>Puma</marca>
+      <color>Blanco</color>
+      <talla>10</talla>
+      <estilo>Corte Alto</estilo>
+   </zapato>
+   <zapato código="5">
+      <marca>Reebok</marca>
+      <color>Blanco</color>
+      <talla>13</talla>
+      <estilo>Urbanos</estilo>
+   </zapato>
+   <zapato código="6">
+      <marca>Adidas</marca>
+      <color>Rojo</color>
+      <talla>6</talla>
+      <estilo>Corte Alto</estilo>
+   </zapato>
+   <zapato código="7">
+      <marca>Nike</marca>
+      <color>Negro</color>
+      <talla>10</talla>
+      <estilo>Urbanos</estilo>
+   </zapato>
+   <zapato código="8">
+      <marca>Adidas</marca>
+      <color>Negro</color>
       <talla>7</talla>
       <estilo>Corte Alto</estilo>
    </zapato>
-   <zapato codigo="2">
-      <marca>Adidas</marca>
-      <color>Blanco</color>
+   <zapato código="9">
+      <marca>Reebok</marca>
+      <color>Rojo</color>
       <talla>7</talla>
-      <estilo>Vintage</estilo>
+      <estilo>Running</estilo>
    </zapato>
-   <zapato codigo="3">
+   <zapato código="10">
       <marca>Nike</marca>
       <color>Gris</color>
-      <talla>7</talla>
-      <estilo>Urbanos</estilo>
+      <talla>9</talla>
+      <estilo>Vintage</estilo>
    </zapato>
-   <zapato codigo="4">
+   <zapato código="11">
       <marca>Puma</marca>
       <color>Azul</color>
-      <talla>8</talla>
+      <talla>7</talla>
+      <estilo>Corte Alto</estilo>
+   </zapato>
+   <zapato código="12">
+      <marca>Reebok</marca>
+      <color>Rojo</color>
+      <talla>11</talla>
       <estilo>Vintage</estilo>
    </zapato>
 </zapatos>

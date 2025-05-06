@@ -1,7 +1,7 @@
 import random
-import xml.etree.ElementTree as et
+import xml.etree.ElementTree as ET
 
-#coding=utf-8
+# coding=utf-8
 """
 ===============================================================================
  Programa: TiendaZapatosArchivosXML
@@ -11,106 +11,139 @@ import xml.etree.ElementTree as et
  ----------
 - Aplicación que almacena un diccionario de inventario de zapatos en un
 - archivo de texto plano en formato XML (Extensible Markup Language)
-- La creación del diccionario se hace usando dictionary comprenhension a partir
+- La creación del diccionario se hace usando dictionary comprehension a partir
   de listas que tienen valores para los atributos
-
  ===============================================================================
 """
+# Constantes globales
+MARCAS = ['Puma','Nike','Adidas','Reebok']
+COLORES = ['Blanco','Negro','Azul', 'Gris', 'Rojo']
+ESTILOS = ['Running','Urbanos','Vintage', 'Corte Alto']
+ARCHIVO_XML_INVENTARIO = 'inventario_zapatos.xml'
 
-#Función para visualizar el contenido del diccionario
-def visualiza_diccionario_zapatos(un_diccionario):
-    print(f'\nTotal entradas: {len(un_diccionario)}. Contenido del inventario:')
-    for llave in un_diccionario.keys():
-        print(f'Código: {llave}')
-        for detalle in un_diccionario[llave].keys():
-            print(f'\t{detalle}: {un_diccionario[llave][detalle]}')
-        print()
+def mostrar_inventario(inventario):
+    """
+    Muestra el contenido del diccionario de inventario de zapatos
 
-#Función para guardar un diccionario en un archivo XML
-def guarda_archivo_xml(un_diccionario,un_archivo_xml):
+    Args:
+        inventario (dict): Diccionario con el inventario de zapatos
+    """
+    print(f'\nTotal entradas: {len(inventario)}. Contenido del inventario:')
+    for codigo, detalles in inventario.items():
+        print(f'código: {codigo}')
+        for atributo, valor in detalles.items():
+            print(f'\t{atributo}: {valor}')
 
+def guardar_inventario_xml(inventario, ruta_archivo):
+    """
+    Guarda el diccionario de inventario en un archivo XML
+
+    Args:
+        inventario (dict): Diccionario con el inventario de zapatos
+        ruta_archivo (str): Ruta del archivo XML donde se guardará el inventario
+    """
     # Creamos el elemento raíz
-    nodo_raiz = et.Element("zapatos")
+    nodo_raiz = ET.Element("zapatos")
 
-    # Agregamos cada bicicleta como un elemento hijo
-    for codigo, detalle in un_diccionario.items():
-        zapato = et.SubElement(nodo_raiz, "zapato")
+    # Agregamos cada zapato como un elemento hijo
+    for codigo, detalles in inventario.items():
+        zapato = ET.SubElement(nodo_raiz, "zapato")
 
-        # Agregamos el codigo como propiedad
-        zapato.set("codigo", codigo)
+        # Agregamos el código como propiedad
+        zapato.set("código", codigo)
 
         # Agregar los demás datos como subelementos
-        for campo, valor in detalle.items():
-            atributo = et.SubElement(zapato, campo.lower())
+        for campo, valor in detalles.items():
+            atributo = ET.SubElement(zapato, campo.lower())
             atributo.text = str(valor)
 
     # Crear el árbol y guardarlo con declaración XML y codificación
-    et.indent(nodo_raiz,space="   ")
-    arbol_elementos = et.ElementTree(nodo_raiz)
-    arbol_elementos.write(un_archivo_xml, encoding="utf-8", xml_declaration=True)
+    ET.indent(nodo_raiz, space="   ")
+    arbol_elementos = ET.ElementTree(nodo_raiz)
+    arbol_elementos.write(ruta_archivo, encoding="utf-8", xml_declaration=True)
 
-    print(f"\nArchivo XML guardado en {un_archivo_xml}")
+    print(f"Archivo XML guardado en {ruta_archivo}")
 
-#Funcion para leer un XML y reconstruir el diccionario
-def leer_archivo_xml(un_archivo_xml):
+def cargar_inventario_xml(ruta_archivo):
+    """
+    Lee un archivo XML y reconstruye el diccionario de inventario
 
-    #Leemos el archivo y obtenemos el nodo raiz
-    arbol_elementos = et.parse(un_archivo_xml)
+    Args:
+        ruta_archivo (str): Ruta del archivo XML con el inventario
+
+    Returns:
+        dict: Diccionario con el inventario de zapatos
+    """
+    # Leemos el archivo y obtenemos el nodo raiz
+    arbol_elementos = ET.parse(ruta_archivo)
     nodo_raiz = arbol_elementos.getroot()
 
-    diccionario_inventario = {}
+    inventario = {}
 
-    #Procesamos cada elemento zapato
+    # Procesamos cada elemento zapato
     for zapato in nodo_raiz.findall('zapato'):
-        codigo = zapato.get('codigo')
+        codigo = zapato.get('código')
 
-        #creamos el sub-diccionario asociado a este codigo
+        # Creamos el sub-diccionario asociado a este código
         datos_zapato = {}
 
-        #Procesamos cada uno de los campos para este zapato
+        # Procesamos cada uno de los campos para esta bicicleta
         for campo in zapato:
             nombre_campo = campo.tag.capitalize()
             valor = campo.text
 
-            #Tratamiento especial para la talla, que es entero
-            if nombre_campo == 'Talla' and valor.isdigit():
+            # Tratamiento especial para los cambios, que es entero
+            if nombre_campo == 'cambios' and valor.isdigit():
                 valor = int(valor)
 
             datos_zapato[nombre_campo] = valor
 
-        #finalmente agregamos el zapato al diccionario del inventario
-        diccionario_inventario[codigo] = datos_zapato
+        # Finalmente agregamos la bicicleta al diccionario del inventario
+        inventario[codigo] = datos_zapato
+
+    return inventario
+
+def generar_inventario_aleatorio(cantidad):
+    """
+    Genera un inventario aleatorio de zapatos
+
+    Args:
+        cantidad (int): Número de bicicletas a generar
+
+    Returns:
+        dict: Diccionario con el inventario generado
+    """
+    diccionario_inventario = {
+        f'{codigo}': {
+            'Marca': random.choice(MARCAS),
+            'Color': random.choice(COLORES),
+            'Talla': random.randint(5, 15),
+            'Estilo': random.choice(ESTILOS)
+        }
+        for codigo in range(1, cantidad + 1)
+    }
 
     return diccionario_inventario
 
+def main():
+    """Función principal del programa"""
 
+    # Generamos el inventario aleatorio
+    CANTIDAD_ZAPATOS = 12
+    inventario = generar_inventario_aleatorio(CANTIDAD_ZAPATOS)
 
-#Funcion Principal
-print('Programa para gestionar el inventario de Zapatos en un archivo XML')
+    # Mostramos el inventario generado
+    mostrar_inventario(inventario)
 
-#Aquí generamos el diccionario a partir de las listas, usando dictionary comprenhension
-marcas = ['Puma','Nike','Adidas','Reebok']
-colores = ['Blanco','Negro','Azul', 'Gris', 'Rojo']
-estilos = ['Running','Urbanos','Vintage', 'Corte Alto']
+    # Guardamos en XML
+    guardar_inventario_xml(inventario, ARCHIVO_XML_INVENTARIO)
 
-total_zapatos = 4
+    # Leemos el XML y recuperamos el inventario
+    inventario_recuperado = cargar_inventario_xml(ARCHIVO_XML_INVENTARIO)
 
-diccionario_zapatos = {
-    f'{codigo}':{
-        'Marca': random.choice(marcas),
-        'Color': random.choice(colores),
-        'Talla': random.randint(5,15),
-        'Estilo': random.choice(estilos)
-    }
-    for codigo in range(1,total_zapatos+1)
-}
+    # Visualizamos el resultado
+    print('\nEl contenido del inventario luego de leerlo del XML es:\n')
+    mostrar_inventario(inventario_recuperado)
 
-visualiza_diccionario_zapatos(diccionario_zapatos)
-
-guarda_archivo_xml(diccionario_zapatos,'inventario_zapatos.xml')
-
-print('\nAqui visualizamos el XML recuperado: ')
-
-diccionario_recuperado = leer_archivo_xml('inventario_zapatos.xml')
-
-visualiza_diccionario_zapatos(diccionario_recuperado)
+if __name__ == "__main__":
+    main()

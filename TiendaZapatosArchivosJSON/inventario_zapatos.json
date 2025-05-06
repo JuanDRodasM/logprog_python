@@ -1,0 +1,74 @@
+{
+    "1": {
+        "Marca": "Nike",
+        "Color": "Azul",
+        "Talla": 12,
+        "Estilo": "Corte Alto"
+    },
+    "2": {
+        "Marca": "Puma",
+        "Color": "Azul",
+        "Talla": 10,
+        "Estilo": "Urbanos"
+    },
+    "3": {
+        "Marca": "Reebok",
+        "Color": "Rojo",
+        "Talla": 9,
+        "Estilo": "Urbanos"
+    },
+    "4": {
+        "Marca": "Adidas",
+        "Color": "Blanco",
+        "Talla": 12,
+        "Estilo": "Vintage"
+    },
+    "5": {
+        "Marca": "Puma",
+        "Color": "Azul",
+        "Talla": 6,
+        "Estilo": "Urbanos"
+    },
+    "6": {
+        "Marca": "Puma",
+        "Color": "Gris",
+        "Talla": 12,
+        "Estilo": "Vintage"
+    },
+    "7": {
+        "Marca": "Reebok",
+        "Color": "Gris",
+        "Talla": 13,
+        "Estilo": "Running"
+    },
+    "8": {
+        "Marca": "Reebok",
+        "Color": "Gris",
+        "Talla": 15,
+        "Estilo": "Vintage"
+    },
+    "9": {
+        "Marca": "Adidas",
+        "Color": "Gris",
+        "Talla": 11,
+        "Estilo": "Corte Alto"
+    },
+    "10": {
+        "Marca": "Puma",
+        "Color": "Azul",
+        "Talla": 9,
+        "Estilo": "Running"
+    },
+    "11": {
+        "Marca": "Reebok",
+        "Color": "Gris",
+        "Talla": 12,
+        "Estilo": "Running"
+    },
+    "12": {
+        "Marca": "Adidas",
+        "Color": "Gris",
+        "Talla": 11,
+        "Estilo": "Urbanos"
+    }
+}
