@@ -129,7 +129,7 @@ def main():
     """Función principal del programa"""
 
     # Generamos el inventario aleatorio
-    CANTIDAD_ZAPATOS = 12
+    CANTIDAD_ZAPATOS = 10
     inventario = generar_inventario_aleatorio(CANTIDAD_ZAPATOS)
 
     # Mostramos el inventario generado

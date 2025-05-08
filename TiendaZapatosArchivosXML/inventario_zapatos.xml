@@ -1,75 +1,63 @@
 <?xml version='1.0' encoding='utf-8'?>
 <zapatos>
    <zapato código="1">
-      <marca>Reebok</marca>
-      <color>Rojo</color>
-      <talla>10</talla>
-      <estilo>Running</estilo>
+      <marca>Adidas</marca>
+      <color>Azul</color>
+      <talla>12</talla>
+      <estilo>Vintage</estilo>
    </zapato>
    <zapato código="2">
-      <marca>Nike</marca>
-      <color>Rojo</color>
-      <talla>13</talla>
-      <estilo>Running</estilo>
+      <marca>Reebok</marca>
+      <color>Negro</color>
+      <talla>5</talla>
+      <estilo>Urbanos</estilo>
    </zapato>
    <zapato código="3">
-      <marca>Adidas</marca>
-      <color>Rojo</color>
-      <talla>9</talla>
+      <marca>Nike</marca>
+      <color>Gris</color>
+      <talla>14</talla>
       <estilo>Vintage</estilo>
    </zapato>
    <zapato código="4">
-      <marca>Puma</marca>
-      <color>Blanco</color>
-      <talla>10</talla>
-      <estilo>Corte Alto</estilo>
+      <marca>Adidas</marca>
+      <color>Gris</color>
+      <talla>14</talla>
+      <estilo>Running</estilo>
    </zapato>
    <zapato código="5">
       <marca>Reebok</marca>
-      <color>Blanco</color>
-      <talla>13</talla>
-      <estilo>Urbanos</estilo>
+      <color>Azul</color>
+      <talla>5</talla>
+      <estilo>Running</estilo>
    </zapato>
    <zapato código="6">
-      <marca>Adidas</marca>
+      <marca>Reebok</marca>
       <color>Rojo</color>
-      <talla>6</talla>
-      <estilo>Corte Alto</estilo>
+      <talla>5</talla>
+      <estilo>Running</estilo>
    </zapato>
    <zapato código="7">
-      <marca>Nike</marca>
-      <color>Negro</color>
-      <talla>10</talla>
-      <estilo>Urbanos</estilo>
+      <marca>Reebok</marca>
+      <color>Gris</color>
+      <talla>7</talla>
+      <estilo>Running</estilo>
    </zapato>
    <zapato código="8">
-      <marca>Adidas</marca>
-      <color>Negro</color>
-      <talla>7</talla>
-      <estilo>Corte Alto</estilo>
+      <marca>Nike</marca>
+      <color>Azul</color>
+      <talla>13</talla>
+      <estilo>Running</estilo>
    </zapato>
    <zapato código="9">
       <marca>Reebok</marca>
       <color>Rojo</color>
-      <talla>7</talla>
+      <talla>5</talla>
       <estilo>Running</estilo>
    </zapato>
    <zapato código="10">
-      <marca>Nike</marca>
-      <color>Gris</color>
-      <talla>9</talla>
-      <estilo>Vintage</estilo>
-   </zapato>
-   <zapato código="11">
       <marca>Puma</marca>
-      <color>Azul</color>
-      <talla>7</talla>
-      <estilo>Corte Alto</estilo>
-   </zapato>
-   <zapato código="12">
-      <marca>Reebok</marca>
       <color>Rojo</color>
-      <talla>11</talla>
+      <talla>9</talla>
       <estilo>Vintage</estilo>
    </zapato>
 </zapatos>
