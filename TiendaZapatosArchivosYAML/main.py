@@ -71,7 +71,7 @@ def guardar_inventario_yaml(inventario,ruta_archivo):
         with open(ruta_archivo, 'w', encoding='utf-8') as archivo_destino:
             yaml.dump(inventario, archivo_destino, default_flow_style=False, allow_unicode=True, sort_keys=False)
         print(f"Archivo {ruta_archivo} creado exitosamente")
-    except Exception as e:
+    except FileExistsError as e:
         print(f"Error al escribir el archivo: {e}")
 
 def cargar_inventario_yaml(ruta_archivo):
@@ -98,7 +98,7 @@ def main():
     """Función principal del programa"""
 
     # Generamos el inventario aleatorio
-    CANTIDAD_ZAPATOS = 15
+    CANTIDAD_ZAPATOS = 100
     inventario = generar_inventario_aleatorio(CANTIDAD_ZAPATOS)
 
     # Mostramos el inventario generado

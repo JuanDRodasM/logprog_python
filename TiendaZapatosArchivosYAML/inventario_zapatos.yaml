@@ -1,75 +1,500 @@
 '1':
-  Marca: Reebok
+  Marca: Nike
   Color: Negro
-  Talla: 7
-  Estilo: Vintage
+  Talla: 9
+  Estilo: Running
 '2':
   Marca: Puma
   Color: Rojo
-  Talla: 7
-  Estilo: Urbanos
+  Talla: 14
+  Estilo: Running
 '3':
   Marca: Adidas
-  Color: Blanco
-  Talla: 6
-  Estilo: Urbanos
-'4':
-  Marca: Puma
   Color: Rojo
-  Talla: 9
+  Talla: 8
+  Estilo: Vintage
+'4':
+  Marca: Adidas
+  Color: Blanco
+  Talla: 5
   Estilo: Running
 '5':
-  Marca: Adidas
-  Color: Rojo
-  Talla: 10
-  Estilo: Vintage
-'6':
-  Marca: Adidas
-  Color: Rojo
-  Talla: 11
-  Estilo: Vintage
-'7':
-  Marca: Adidas
+  Marca: Reebok
   Color: Azul
-  Talla: 10
-  Estilo: Urbanos
-'8':
-  Marca: Nike
-  Color: Rojo
   Talla: 14
   Estilo: Urbanos
+'6':
+  Marca: Puma
+  Color: Azul
+  Talla: 12
+  Estilo: Corte Alto
+'7':
+  Marca: Puma
+  Color: Gris
+  Talla: 7
+  Estilo: Corte Alto
+'8':
+  Marca: Puma
+  Color: Blanco
+  Talla: 14
+  Estilo: Corte Alto
 '9':
+  Marca: Puma
+  Color: Azul
+  Talla: 9
+  Estilo: Running
+'10':
+  Marca: Adidas
+  Color: Gris
+  Talla: 7
+  Estilo: Corte Alto
+'11':
+  Marca: Nike
+  Color: Blanco
+  Talla: 7
+  Estilo: Vintage
+'12':
+  Marca: Adidas
+  Color: Gris
+  Talla: 14
+  Estilo: Running
+'13':
+  Marca: Adidas
+  Color: Negro
+  Talla: 14
+  Estilo: Corte Alto
+'14':
+  Marca: Nike
+  Color: Blanco
+  Talla: 6
+  Estilo: Vintage
+'15':
+  Marca: Adidas
+  Color: Gris
+  Talla: 10
+  Estilo: Urbanos
+'16':
+  Marca: Puma
+  Color: Gris
+  Talla: 8
+  Estilo: Vintage
+'17':
+  Marca: Puma
+  Color: Blanco
+  Talla: 5
+  Estilo: Urbanos
+'18':
+  Marca: Adidas
+  Color: Rojo
+  Talla: 8
+  Estilo: Corte Alto
+'19':
+  Marca: Adidas
+  Color: Blanco
+  Talla: 9
+  Estilo: Corte Alto
+'20':
+  Marca: Nike
+  Color: Rojo
+  Talla: 13
+  Estilo: Urbanos
+'21':
+  Marca: Nike
+  Color: Negro
+  Talla: 9
+  Estilo: Running
+'22':
+  Marca: Nike
+  Color: Gris
+  Talla: 9
+  Estilo: Urbanos
+'23':
+  Marca: Nike
+  Color: Gris
+  Talla: 8
+  Estilo: Running
+'24':
+  Marca: Puma
+  Color: Negro
+  Talla: 8
+  Estilo: Urbanos
+'25':
+  Marca: Nike
+  Color: Azul
+  Talla: 14
+  Estilo: Vintage
+'26':
+  Marca: Adidas
+  Color: Rojo
+  Talla: 6
+  Estilo: Running
+'27':
+  Marca: Adidas
+  Color: Rojo
+  Talla: 9
+  Estilo: Corte Alto
+'28':
+  Marca: Nike
+  Color: Negro
+  Talla: 10
+  Estilo: Vintage
+'29':
+  Marca: Reebok
+  Color: Azul
+  Talla: 6
+  Estilo: Vintage
+'30':
+  Marca: Nike
+  Color: Blanco
+  Talla: 11
+  Estilo: Vintage
+'31':
+  Marca: Nike
+  Color: Negro
+  Talla: 8
+  Estilo: Urbanos
+'32':
+  Marca: Nike
+  Color: Azul
+  Talla: 12
+  Estilo: Running
+'33':
+  Marca: Nike
+  Color: Blanco
+  Talla: 10
+  Estilo: Corte Alto
+'34':
+  Marca: Reebok
+  Color: Rojo
+  Talla: 15
+  Estilo: Corte Alto
+'35':
+  Marca: Adidas
+  Color: Rojo
+  Talla: 9
+  Estilo: Urbanos
+'36':
+  Marca: Nike
+  Color: Negro
+  Talla: 12
+  Estilo: Corte Alto
+'37':
   Marca: Adidas
   Color: Blanco
   Talla: 12
-  Estilo: Urbanos
-'10':
-  Marca: Puma
-  Color: Gris
-  Talla: 15
-  Estilo: Urbanos
-'11':
-  Marca: Reebok
-  Color: Gris
-  Talla: 5
-  Estilo: Urbanos
-'12':
-  Marca: Reebok
-  Color: Negro
-  Talla: 6
   Estilo: Vintage
-'13':
-  Marca: Puma
+'38':
+  Marca: Reebok
+  Color: Rojo
+  Talla: 14
+  Estilo: Urbanos
+'39':
+  Marca: Adidas
   Color: Azul
-  Talla: 11
+  Talla: 14
   Estilo: Corte Alto
-'14':
-  Marca: Puma
-  Color: Gris
+'40':
+  Marca: Adidas
+  Color: Blanco
   Talla: 6
   Estilo: Urbanos
-'15':
+'41':
+  Marca: Reebok
+  Color: Blanco
+  Talla: 8
+  Estilo: Urbanos
+'42':
+  Marca: Nike
+  Color: Gris
+  Talla: 12
+  Estilo: Vintage
+'43':
   Marca: Nike
   Color: Gris
   Talla: 14
+  Estilo: Urbanos
+'44':
+  Marca: Adidas
+  Color: Blanco
+  Talla: 8
+  Estilo: Urbanos
+'45':
+  Marca: Reebok
+  Color: Azul
+  Talla: 9
+  Estilo: Vintage
+'46':
+  Marca: Reebok
+  Color: Negro
+  Talla: 14
+  Estilo: Vintage
+'47':
+  Marca: Adidas
+  Color: Rojo
+  Talla: 11
+  Estilo: Vintage
+'48':
+  Marca: Reebok
+  Color: Rojo
+  Talla: 7
+  Estilo: Corte Alto
+'49':
+  Marca: Adidas
+  Color: Azul
+  Talla: 8
+  Estilo: Running
+'50':
+  Marca: Reebok
+  Color: Azul
+  Talla: 15
+  Estilo: Vintage
+'51':
+  Marca: Nike
+  Color: Azul
+  Talla: 5
+  Estilo: Urbanos
+'52':
+  Marca: Reebok
+  Color: Rojo
+  Talla: 15
+  Estilo: Running
+'53':
+  Marca: Puma
+  Color: Gris
+  Talla: 5
+  Estilo: Vintage
+'54':
+  Marca: Reebok
+  Color: Negro
+  Talla: 13
+  Estilo: Urbanos
+'55':
+  Marca: Reebok
+  Color: Gris
+  Talla: 5
+  Estilo: Running
+'56':
+  Marca: Reebok
+  Color: Negro
+  Talla: 9
+  Estilo: Running
+'57':
+  Marca: Nike
+  Color: Azul
+  Talla: 12
+  Estilo: Running
+'58':
+  Marca: Puma
+  Color: Negro
+  Talla: 13
+  Estilo: Vintage
+'59':
+  Marca: Puma
+  Color: Rojo
+  Talla: 13
+  Estilo: Running
+'60':
+  Marca: Reebok
+  Color: Gris
+  Talla: 15
+  Estilo: Running
+'61':
+  Marca: Adidas
+  Color: Gris
+  Talla: 7
+  Estilo: Vintage
+'62':
+  Marca: Adidas
+  Color: Blanco
+  Talla: 15
+  Estilo: Urbanos
+'63':
+  Marca: Adidas
+  Color: Rojo
+  Talla: 15
+  Estilo: Corte Alto
+'64':
+  Marca: Nike
+  Color: Gris
+  Talla: 13
+  Estilo: Urbanos
+'65':
+  Marca: Adidas
+  Color: Negro
+  Talla: 15
+  Estilo: Running
+'66':
+  Marca: Adidas
+  Color: Gris
+  Talla: 9
+  Estilo: Corte Alto
+'67':
+  Marca: Nike
+  Color: Azul
+  Talla: 6
+  Estilo: Running
+'68':
+  Marca: Puma
+  Color: Blanco
+  Talla: 9
+  Estilo: Running
+'69':
+  Marca: Nike
+  Color: Rojo
+  Talla: 8
+  Estilo: Vintage
+'70':
+  Marca: Reebok
+  Color: Gris
+  Talla: 13
+  Estilo: Vintage
+'71':
+  Marca: Puma
+  Color: Gris
+  Talla: 12
+  Estilo: Urbanos
+'72':
+  Marca: Puma
+  Color: Negro
+  Talla: 14
+  Estilo: Running
+'73':
+  Marca: Nike
+  Color: Blanco
+  Talla: 8
+  Estilo: Urbanos
+'74':
+  Marca: Reebok
+  Color: Gris
+  Talla: 9
+  Estilo: Running
+'75':
+  Marca: Reebok
+  Color: Rojo
+  Talla: 15
+  Estilo: Corte Alto
+'76':
+  Marca: Puma
+  Color: Azul
+  Talla: 6
+  Estilo: Running
+'77':
+  Marca: Nike
+  Color: Rojo
+  Talla: 15
+  Estilo: Corte Alto
+'78':
+  Marca: Puma
+  Color: Gris
+  Talla: 7
+  Estilo: Vintage
+'79':
+  Marca: Puma
+  Color: Gris
+  Talla: 7
+  Estilo: Urbanos
+'80':
+  Marca: Nike
+  Color: Negro
+  Talla: 13
+  Estilo: Vintage
+'81':
+  Marca: Reebok
+  Color: Gris
+  Talla: 11
+  Estilo: Corte Alto
+'82':
+  Marca: Puma
+  Color: Negro
+  Talla: 6
+  Estilo: Running
+'83':
+  Marca: Adidas
+  Color: Rojo
+  Talla: 10
+  Estilo: Running
+'84':
+  Marca: Nike
+  Color: Gris
+  Talla: 13
+  Estilo: Running
+'85':
+  Marca: Puma
+  Color: Azul
+  Talla: 14
+  Estilo: Vintage
+'86':
+  Marca: Reebok
+  Color: Rojo
+  Talla: 13
+  Estilo: Running
+'87':
+  Marca: Adidas
+  Color: Negro
+  Talla: 13
+  Estilo: Urbanos
+'88':
+  Marca: Adidas
+  Color: Rojo
+  Talla: 10
+  Estilo: Corte Alto
+'89':
+  Marca: Nike
+  Color: Gris
+  Talla: 12
+  Estilo: Vintage
+'90':
+  Marca: Puma
+  Color: Blanco
+  Talla: 15
+  Estilo: Running
+'91':
+  Marca: Adidas
+  Color: Blanco
+  Talla: 7
+  Estilo: Running
+'92':
+  Marca: Puma
+  Color: Negro
+  Talla: 7
+  Estilo: Corte Alto
+'93':
+  Marca: Nike
+  Color: Gris
+  Talla: 13
+  Estilo: Vintage
+'94':
+  Marca: Adidas
+  Color: Blanco
+  Talla: 6
+  Estilo: Running
+'95':
+  Marca: Adidas
+  Color: Azul
+  Talla: 9
+  Estilo: Corte Alto
+'96':
+  Marca: Puma
+  Color: Gris
+  Talla: 5
+  Estilo: Vintage
+'97':
+  Marca: Reebok
+  Color: Rojo
+  Talla: 9
+  Estilo: Vintage
+'98':
+  Marca: Adidas
+  Color: Gris
+  Talla: 13
+  Estilo: Corte Alto
+'99':
+  Marca: Adidas
+  Color: Azul
+  Talla: 11
+  Estilo: Corte Alto
+'100':
+  Marca: Puma
+  Color: Rojo
+  Talla: 12
   Estilo: Running
