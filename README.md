@@ -166,7 +166,31 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 - Se deben identificar ordenes nulas (sin productos) y prioritarias (todos los productos)
 - Actualizado a Python 3.13.x
 
-### 5. Manipulación de Archivos
+### 5. Arreglos y Matrices con Numpy
+
+### [Numpy_creacion_arrays](https://github.com/JuanDRodasM/logprog_python/tree/main/Numpy_creacion_arrays)
+- Demostrar la creación de arrays básicos desde listas usando la librería numpy
+- Arreglos de valores especiales: ceros, unos, matriz identidad, matriz constante
+- Creación de arreglos con secuencias numéricas
+- Creación de arreglos con valores aleatorios
+- Actualizado a Python 3.14.x
+
+### [Numpy_propiedades_arrays](https://github.com/JuanDRodasM/logprog_python/tree/main/Numpy_propiedades_arrays)
+- Demostrar las propiedades de los arreglos usando la librería numpy
+- Shape, ndim, size, dtype, itemsize, nbytes
+- Tipos de datos en arreglos: enteros, floats, booleanos
+- Metodos disponibles para obtener información sobre el manejo de memoria
+- Actualizado a Python 3.14.x
+
+### [Numpy_indexacion](https://github.com/JuanDRodasM/logprog_python/tree/main/Numpy_indexacion)
+- Demostrar cómo acceder a elementos individuales en arrays de diferentes dimensiones.
+- Actualizado a Python 3.14.x
+
+### [Numpy_rebanado](https://github.com/JuanDRodasM/logprog_python/tree/main/Numpy_rebanado)
+- Demostrar técnicas de slicing (rebanado) para extraer porciones de arrays, incluyendo indexación booleana y fancy indexing.
+- Actualizado a Python 3.14.x
+
+### 6. Manipulación de Archivos
 
 ### [TiendaZapatosArchivosCSV](https://github.com/JuanDRodasM/logprog_python/tree/main/TiendaZapatosArchivosCSV)
 - Aplicación que almacena un diccionario de inventario de zapatos en un
