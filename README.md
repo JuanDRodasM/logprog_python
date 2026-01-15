@@ -190,6 +190,12 @@ Este repo se encuentra en proceso de actualización a **Python 3.13.x**. Cada pr
 - Demostrar técnicas de slicing (rebanado) para extraer porciones de arrays, incluyendo indexación booleana y fancy indexing.
 - Actualizado a Python 3.14.x
 
+### [Numpy_operaciones_aritmeticas](https://github.com/JuanDRodasM/logprog_python/tree/main/Numpy_operaciones_aritmeticas)
+- Demostrar operaciones matemáticas elemento a elemento y operaciones con escalares en arreglo de NumPy.
+- Demostrar operaciones con matrices y operaciones como ecuaciones lineales y cuadráticas
+- Demostrar operaciones de comparación y funciones de redondeo- Actualizado a Python 3.14.x
+- Actualizado a Python 3.14.x
+
 ### 6. Manipulación de Archivos
 
 ### [TiendaZapatosArchivosCSV](https://github.com/JuanDRodasM/logprog_python/tree/main/TiendaZapatosArchivosCSV)
